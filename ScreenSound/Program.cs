@@ -1,15 +1,10 @@
-﻿using ScreenSound.Menus;
+﻿using ScreenSound. Menus;
 using ScreenSound.Models;
+using System.Diagnostics;
 
 Banda mamonasAssassinas = new Banda("Mamonas Assassinas");
-mamonasAssassinas.AdicionarNota(new Avaliacao(10));
-mamonasAssassinas.AdicionarNota(new Avaliacao(9));
-mamonasAssassinas.AdicionarNota(new Avaliacao(7));
 
 Banda calcinhaPreta = new Banda("Calcinha Preta");
-calcinhaPreta.AdicionarNota(new Avaliacao(10));
-calcinhaPreta.AdicionarNota(new Avaliacao(10));
-calcinhaPreta.AdicionarNota(new Avaliacao(8));
 
 Dictionary<string, Banda> bandasRegistradas = new();
 bandasRegistradas.Add(mamonasAssassinas.Nome, mamonasAssassinas);
